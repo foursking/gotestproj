@@ -1,0 +1,6 @@
+[api]
+verify = "/verify"
+register = "/register"
+modifyPwd = "/modifyPwd"
+modifyStatus = "/modifyStatus"
+uinInfo = "/uinInfo"

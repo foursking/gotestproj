@@ -1,0 +1,6 @@
+[log]
+level = "debug"
+#stdout_off = true
+[log.kafka]
+    brokers = ["127.0.0.1:9092"]
+    topic = "qdgo_log"
