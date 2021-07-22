@@ -1,4 +1,4 @@
-module github.com/foursking/gotestproj
+module github.com/foursking/gotestproj/api
 
 go 1.14
 
