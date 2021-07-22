@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"git.code.oa.com/yifenglu/qdgo-bossapi/api/internal/service"
-	"git.code.oa.com/qdgo/core/log"
-	xhttp "git.code.oa.com/qdgo/core/net/http"
+	"github.com/foursking/ztgo/core/log"
+	xhttp "github.com/foursking/ztgo/core/net/http"
 
 	"github.com/gin-gonic/gin"
 )

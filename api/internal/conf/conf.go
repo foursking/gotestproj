@@ -1,9 +1,9 @@
 package conf
 
 import (
-	"time"
-	"git.code.oa.com/qdgo/core/log"
+	"github.com/foursking/ztgo/core/log"
 	"github.com/micro/go-micro/v2/config"
+	"time"
 )
 
 func Init() {

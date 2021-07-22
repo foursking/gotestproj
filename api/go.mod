@@ -3,7 +3,7 @@ module github.com/foursking/gotestproj/api
 go 1.14
 
 require (
-	git.code.oa.com/qdgo/core v0.0.0-20200507133118-5e43e1805a01
+	github.com/foursking/ztgo/core v0.0.0-20200507133118-5e43e1805a01
 	git.code.oa.com/yifenglu/bosstsfcall v0.0.0-20200422082721-46aa901f9c53
 	github.com/Go-zh/tools v0.0.0-20190318102628-d7df357d3e99 // indirect
 	github.com/aiscrm/redisgo v0.2.1

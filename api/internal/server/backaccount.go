@@ -1,7 +1,7 @@
 package server
 
 import (
-	"git.code.oa.com/qdgo/core/net/http"
+	"github.com/foursking/ztgo/core/net/http"
 	"github.com/gin-gonic/gin"
 )
 

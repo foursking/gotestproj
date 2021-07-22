@@ -4,7 +4,7 @@
 package di
 
 import (
-	xhttp "git.code.oa.com/qdgo/core/net/http"
+	xhttp "github.com/foursking/ztgo/core/net/http"
 
 	"git.code.oa.com/yifenglu/qdgo-bossapi/api/internal/dao"
 	"git.code.oa.com/yifenglu/qdgo-bossapi/api/internal/server"

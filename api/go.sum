@@ -18,8 +18,8 @@ git.code.oa.com/going/l5 v0.2.1/go.mod h1:v9K4Sa+sc/nQxkRmFifd0xeK0rZaFJ15EOM9oe
 git.code.oa.com/jce/jce v1.0.0/go.mod h1:4Ki6YcRIQHwZkVQayDy4r+12hCQl8Yl6rWoGGYgKwJU=
 git.code.oa.com/jce/jce v1.0.1 h1:PZgZZ1EZ0No/Xok0FJOsbWeW08kE5mNsfqBEYnuco/k=
 git.code.oa.com/jce/jce v1.0.1/go.mod h1:4Ki6YcRIQHwZkVQayDy4r+12hCQl8Yl6rWoGGYgKwJU=
-git.code.oa.com/qdgo/core v0.0.0-20200507133118-5e43e1805a01 h1:wwnWGeIpIgysoaJWOIBM38O4WTho7p96gXnQjh2EmUA=
-git.code.oa.com/qdgo/core v0.0.0-20200507133118-5e43e1805a01/go.mod h1:U4XyIX0GRBDQVZK7785aknQzFheoL46hhUyjCFbU/7E=
+github.com/foursking/ztgo/core v0.0.0-20200507133118-5e43e1805a01 h1:wwnWGeIpIgysoaJWOIBM38O4WTho7p96gXnQjh2EmUA=
+github.com/foursking/ztgo/core v0.0.0-20200507133118-5e43e1805a01/go.mod h1:U4XyIX0GRBDQVZK7785aknQzFheoL46hhUyjCFbU/7E=
 git.code.oa.com/qdgo/pb_cpp v1.0.1271792/go.mod h1:BFtjYvU39wJqMQ2Nl0Ie74Ah+ri4c+Xkfxmf5yiNJgw=
 git.code.oa.com/rainbow/golang-sdk v0.0.2 h1:SygCTroeuLC0zJ9FeMoVRZf+0vY3T6zY+vg82ui/1Qk=
 git.code.oa.com/rainbow/golang-sdk v0.0.2/go.mod h1:hRQQlLX12n2l8d1CiCc4sz8OymwIEYUuvDQjtF/6UYE=

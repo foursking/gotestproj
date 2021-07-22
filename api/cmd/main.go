@@ -3,8 +3,8 @@ package main
 import (
 	"git.code.oa.com/yifenglu/qdgo-bossapi/api/internal/conf"
 	"git.code.oa.com/yifenglu/qdgo-bossapi/api/internal/di"
-	"git.code.oa.com/qdgo/core"
-	"git.code.oa.com/qdgo/core/log"
+	"github.com/foursking/ztgo/core"
+	"github.com/foursking/ztgo/core/log"
 	"github.com/micro/go-micro/v2/config"
 	"github.com/micro/go-micro/v2/web"
 )

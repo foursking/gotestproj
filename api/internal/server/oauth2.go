@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"time"
 
-	"git.code.oa.com/qdgo/core/log"
-	"git.code.oa.com/qdgo/core/net/http"
 	"github.com/aiscrm/redisgo"
+	"github.com/foursking/ztgo/core/log"
+	"github.com/foursking/ztgo/core/net/http"
 	"github.com/gin-gonic/gin"
 )
 
@@ -38,9 +38,9 @@ func redisObj() *redisgo.Cacher {
 }
 
 /**
- * @description: 
- * @param {type} 
- * @return: 
+ * @description:
+ * @param {type}
+ * @return:
  */
 func genToken(ctx *gin.Context) {
 
@@ -103,11 +103,10 @@ func vaildToken(ctx *gin.Context) {
 	}
 }
 
-
 /**
- * @description: 
- * @param {type} 
- * @return: 
+ * @description:
+ * @param {type}
+ * @return:
  */
 func validAccount(appid string, appkey string) bool {
 	fmt.Println(appid)
@@ -117,8 +116,8 @@ func validAccount(appid string, appkey string) bool {
 
 /**
  * @description: 刷新token
- * @param {type} 
- * @return: 
+ * @param {type}
+ * @return:
  */
 func reflashToken(ctx *gin.Context) {
 	appid := ctx.PostForm("appid")
@@ -153,11 +152,10 @@ func reflashToken(ctx *gin.Context) {
 	} else {
 		fmt.Println("key not exists")
 		var err error = errors.New("appid hkey not exists")
-		log.Errorf("hget appid:(%v) :error (%v)", appid,err)
+		log.Errorf("hget appid:(%v) :error (%v)", appid, err)
 		http.JSON(ctx, nil, err)
 	}
 }
-
 
 //生成40位长度token
 func createToken() string {
@@ -178,7 +176,6 @@ func createRand() int {
 	rand.Seed(int64(time.Now().UnixNano()))
 	return rand.Int()
 }
-
 
 //添加超前时间
 func aheadNowTime(i int) int64 {

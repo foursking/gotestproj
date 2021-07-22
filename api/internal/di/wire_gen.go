@@ -9,7 +9,7 @@ import (
 	"git.code.oa.com/yifenglu/qdgo-bossapi/api/internal/dao"
 	"git.code.oa.com/yifenglu/qdgo-bossapi/api/internal/server"
 	"git.code.oa.com/yifenglu/qdgo-bossapi/api/internal/service"
-	"git.code.oa.com/qdgo/core/net/http"
+	"github.com/foursking/ztgo/core/net/http"
 	"github.com/google/wire"
 )
 
